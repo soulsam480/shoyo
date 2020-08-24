@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phantom CSS tester</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<!-- THis is custom stylesheet merges effortlessly with the main stylesheet -->
+<style>
+    :root {
+        letter-spacing: 1px;
+
+    }
+
+    .head {
+        text-align: center;
+    }
+
+    .color-space p {
+        display: inline-block;
+        padding: 5px;
+    }
+</style>
+
+<body>
+    <h2 class="secondary head">Phantom CSS Docs</h2>
+    <br>
+    <div>
+        <h3 class="secondary">Colors</h3>
+        <div class="color-space">
+            <h5>3 basic text colors</h5>
+            <p class="secondary">.secondary</p>
+            <p class="danger">.danger</p>
+            <p class="success">.success</p>
+            <br>
+            <p class="bg-secondary">.bg-secondary</p>
+            <p class="bg-danger">.bg-danger</p>
+            <p class="bg-success">.bg-success</p>
+        </div>
+    </div>
+    <div>
+        <h3 class="secondary">Buttons</h3>
+        <p>Basic 3 Buttons</p>
+        <button class="btn">.btn</button>
+        <button class="b-danger">.b-danger</button>
+        <button class="b-success">.b-success</button>
+        <br>
+        <p>Small Buttons</p>
+        <button class="btn b-sm">.btn .b-sm </button>
+        <button class="b-danger b-sm">.b-danger .b-sm </button>
+        <button class="b-success b-sm">.b-success .b-sm </button>
+    </div>
+    <br>
+    <div>
+        <h3 class="secondary">Typography</h3>
+        <h1>This is h1</h1>
+        <h2>This is h2</h2>
+        <h3>This is h3</h3>
+        <h4>This is h4</h4>
+        <h5>This is h5</h5>
+        <h6>This is h6</h6>
+        <p>This is a paragraph</p>
+    </div>
+</body>
+
+</html>

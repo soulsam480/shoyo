@@ -1,1 +1,11 @@
 //todo typography styles will go here
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-block-start: 0 !important;
+  margin-block-end: 10px;
+}

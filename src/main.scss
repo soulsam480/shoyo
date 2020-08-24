@@ -1,6 +1,20 @@
 //todo parent sheet. will be used for main import.
-@use './_buttons.scss';
-@use './_colors.scss';
-@use './_container.scss';
-@use './_forms.scss';
-@use './_typo.scss';
+@use 'buttons';
+@use 'colors';
+@use 'container';
+@use 'forms';
+@use 'typo';
+
+//todo font rules here
+@font-face {
+  font-family: "Function Regular";
+  src: url("../assets/functionregular.woff2") format("woff2"),
+    url("../assets/functionregular.woff") format("woff");
+  font-weight: 400;
+}
+:root {
+  background-color: colors.$bg-primary;
+  color: colors.$primary;
+  padding: 5px;
+  font-family: Function Regular;
+}

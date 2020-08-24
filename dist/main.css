@@ -1,0 +1,149 @@
+.secondary {
+  color: #4ecca3;
+}
+
+.danger {
+  color: #b41313;
+}
+
+.success {
+  color: #14ac14;
+}
+
+.bg-secondary {
+  background-color: #4ecca3;
+}
+
+.bg-danger {
+  background-color: #b41313;
+}
+
+.bg-success {
+  background-color: #14ac14;
+}
+
+.btn {
+  background: #393e46;
+  color: #4ecca3;
+  border-radius: 2px;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  display: inline-block;
+  font-family: inherit;
+}
+.btn:hover {
+  color: #4ecca3;
+  background-color: #474c55;
+}
+.btn:focus {
+  outline: none;
+}
+.btn:not([href]) {
+  cursor: pointer;
+  color: #4ecca3;
+  text-decoration: none;
+}
+.btn:not([href]):hover {
+  color: #4ecca3;
+  text-decoration: none;
+}
+.btn:disabled {
+  background-color: #474c55;
+  cursor: not-allowed;
+}
+.btn a {
+  display: block;
+  width: 100%;
+}
+
+.b-danger {
+  background: #b41313;
+  border-radius: 2px;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  color: #ffffff;
+  display: inline-block;
+  font-family: inherit;
+}
+.b-danger:hover {
+  color: #ffffff;
+  background-color: #cc0000;
+}
+.b-danger:focus {
+  outline: none;
+}
+.b-danger:not([href]) {
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+}
+.b-danger:not([href]):hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.b-danger:disabled {
+  background-color: #cc0000;
+  cursor: not-allowed;
+}
+
+.b-success {
+  background: #14ac14;
+  border-radius: 2px;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  color: #ffffff;
+  display: inline-block;
+  font-family: inherit;
+}
+.b-success:hover {
+  color: #ffffff;
+  background-color: #01cc01;
+}
+.b-success:focus {
+  outline: none;
+}
+.b-success:not([href]) {
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+}
+.b-success:not([href]):hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.b-success:disabled {
+  background-color: #01cc01;
+  cursor: not-allowed;
+}
+
+.b-sm {
+  padding: 5px 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-block-start: 0 !important;
+  margin-block-end: 10px;
+}
+
+@font-face {
+  font-family: "Function Regular";
+  src: url("../assets/functionregular.woff2") format("woff2"), url("../assets/functionregular.woff") format("woff");
+  font-weight: 400;
+}
+:root {
+  background-color: #232931;
+  color: #ffffff;
+  padding: 5px;
+  font-family: Function Regular;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,1 +1,118 @@
 //TODO all button styles will go here
+@use 'colors';
+
+.btn {
+  background: colors.$bg-seconday;
+  color: colors.$secondary;
+  border-radius: 2px;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  display: inline-block;
+  font-family: inherit;
+
+  &:hover {
+    color: colors.$secondary;
+    background-color: colors.$bg-seconday-light;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:not([href]) {
+    cursor: pointer;
+    color: colors.$secondary;
+    text-decoration: none;
+  }
+
+  &:not([href]):hover {
+    color: colors.$secondary;
+    text-decoration: none;
+  }
+
+  &:disabled {
+    background-color: colors.$bg-seconday-light;
+    cursor: not-allowed;
+  }
+
+  a {
+    display: block;
+    width: 100%;
+  }
+}
+
+.b-danger {
+  background: colors.$bg-danger;
+  border-radius: 2px;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  color: colors.$primary;
+  display: inline-block;
+  font-family: inherit;
+
+  &:hover {
+    color: colors.$primary;
+    background-color: colors.$bg-danger-light;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:not([href]) {
+    cursor: pointer;
+    color: colors.$primary;
+    text-decoration: none;
+  }
+
+  &:not([href]):hover {
+    color: colors.$primary;
+    text-decoration: none;
+  }
+
+  &:disabled {
+    background-color: colors.$bg-danger-light;
+    cursor: not-allowed;
+  }
+}
+
+.b-success {
+  background: colors.$bg-success;
+  border-radius: 2px;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  color: colors.$primary;
+  display: inline-block;
+  font-family: inherit;
+
+  &:hover {
+    color: colors.$primary;
+    background-color: colors.$bg-success-light;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:not([href]) {
+    cursor: pointer;
+    color: colors.$primary;
+    text-decoration: none;
+  }
+
+  &:not([href]):hover {
+    color: colors.$primary;
+    text-decoration: none;
+  }
+
+  &:disabled {
+    background-color: colors.$bg-success-light;
+    cursor: not-allowed;
+  }
+}
+.b-sm {
+  padding: 5px 10px;
+}
