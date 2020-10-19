@@ -1,0 +1,14 @@
+{
+  "name": "phantom-css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch src/main.scss:dist/main.css"
+  },
+  "repository": "https://github.com/soulsam480/phantom-css.git",
+  "author": "sambit sahoo <soulsam480@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.27.0"
+  }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phantom CSS Docs</title>
+    <link rel="stylesheet" href="./dist/main.css">
+</head>
+<!-- This custom stylesheet merges effortlessly with the main stylesheet -->
+<style>
+    :root {
+        letter-spacing: 1px;
+
+    }
+
+    .color-space p {
+        display: inline-block;
+        padding: 5px;
+    }
+</style>
+
+<body>
+    <div class="head">
+
+        <h2 class="secondary ">Phantom CSS Docs</h2>
+        <h4 class="success">What is this ?</h4>
+        <p>Phantom CSS is a very basic CSS rule set for my projects to build upon.
+            I'm used to bootstrap, but that's too heavy. So i went with this for basic projects.
+            This will contain all most required css i.e. grids, buttons,background,typography etc.
+        </p>
+    </div>
+    <br>
+    <div>
+        <h3 class="secondary">Colors</h3>
+        <div class="color-space">
+            <h5>3 basic text colors</h5>
+            <p class="secondary">.secondary</p>
+            <p class="danger">.danger</p>
+            <p class="success">.success</p>
+            <br>
+            <p class="bg-secondary">.bg-secondary</p>
+            <p class="bg-danger">.bg-danger</p>
+            <p class="bg-success">.bg-success</p>
+        </div>
+    </div>
+    <div>
+        <h3 class="secondary">Buttons</h3>
+        <p>Basic 3 Buttons</p>
+        <div class="btn-group">
+            <button class="btn">.btn</button>
+            <button class="btn danger">.btn .danger</button>
+            <button class="btn success">.btn .success</button>
+        </div>
+        <br>
+        <p>Small Buttons</p>
+        <div class="btn-group">
+            <button class="btn sm">.btn .sm </button>
+            <button class="btn danger sm">.b .danger .sm </button>
+            <button class="btn success sm">.b .success .sm </button>
+        </div>
+    </div>
+    <br>
+    <div>
+        <h3 class="secondary">Typography</h3>
+        <h1>This is h1</h1>
+        <h2>This is h2</h2>
+        <h3>This is h3</h3>
+        <h4>This is h4</h4>
+        <h5>This is h5</h5>
+        <h6>This is h6</h6>
+        <p>This is a paragraph</p>
+    </div>
+
+    <div>
+        <h3 class="secondary">Gird</h3>
+        <h3>Grid is derived from <a href="http://flexboxgrid.com/">http://flexboxgrid.com/</a></h3>
+    </div>
+</body>
+
+</html>

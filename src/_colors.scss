@@ -1,1 +1,30 @@
 //todo all colors will go here
+
+$bg-primary: #ffffff;
+$bg-seconday: #393e46;
+$bg-seconday-light: #4f545e;
+$primary: #ffffff;
+$secondary: #4ecca3;
+$bg-danger: #b41313;
+$bg-danger-light: #cc0000;
+$bg-success: #14ac14;
+$bg-success-light: #18c418;
+$text: #000;
+.secondary {
+  color: $secondary;
+}
+.danger {
+  color: $bg-danger;
+}
+.success {
+  color: $bg-success;
+}
+.bg-secondary {
+  background-color: $secondary;
+}
+.bg-danger {
+  background-color: $bg-danger;
+}
+.bg-success {
+  background-color: $bg-success;
+}

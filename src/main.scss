@@ -1,6 +1,15 @@
 //todo parent sheet. will be used for main import.
-@use './_buttons.scss';
-@use './_colors.scss';
-@use './_container.scss';
-@use './_forms.scss';
-@use './_typo.scss';
+@use 'buttons' as *;
+@use 'colors' as *;
+@use 'container' as *;
+@use 'forms' as *;
+@use 'typo' as *;
+@use "grid" as *;
+//todo font rules here
+
+:root {
+  background-color: $bg-primary;
+  color: $text;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,1 +1,75 @@
 //TODO all button styles will go here
+@use 'colors' as *;
+
+.btn-group {
+  .btn {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  &.right {
+    text-align: right;
+  }
+  &.left {
+    text-align: left;
+  }
+}
+
+.btn {
+  background: $bg-seconday;
+  color: $primary;
+  border-radius: 4px;
+  border: none;
+  padding: 8px 20px;
+  display: inline-block;
+  font-family: inherit;
+  transition: all ease-in 0.2s;
+  &:hover {
+    color: $primary;
+    background-color: $bg-seconday-light;
+  }
+  &:focus {
+    outline: none;
+  }
+
+  &:not([href]) {
+    cursor: pointer;
+    color: $primary;
+    text-decoration: none;
+  }
+
+  &:not([href]):hover {
+    color: $primary;
+    text-decoration: none;
+  }
+
+  &:disabled {
+    background-color: $bg-seconday-light;
+    cursor: not-allowed;
+  }
+
+  a {
+    display: block;
+    width: 100%;
+  }
+  &.sm {
+    padding: 5px 15px;
+  }
+  &.danger {
+    background-color: $bg-danger;
+    &:hover {
+      background-color: $bg-danger-light;
+    }
+    &:disabled {
+      background-color: $bg-danger-light;
+    }
+  }
+  &.success {
+    background-color: $bg-success;
+    &:hover {
+      background-color: $bg-success-light;
+    }
+    &:disabled {
+      background-color: $bg-success-light;
+    }
+  }
+}
