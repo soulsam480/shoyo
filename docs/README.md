@@ -1,8 +1,7 @@
-# shoyo
+# shoyo 
+###### v0.1.1.alpha
+> A light and minimal css library 
 
-> A light css library for my projects
-
-Currently in beta. Will release soon !  
 
 # Why ?
 
@@ -12,4 +11,5 @@ I'm used to bootstrap, but that's too heavy. So i went with this for basic proje
 
 - Light weight
 - Customizable
+- Minimal
 - Simple design (I love that 🤗)

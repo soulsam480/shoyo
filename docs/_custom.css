@@ -1,3 +1,10 @@
-.content{
-    padding-top: 35px;
+.content {
+  padding-top: 35px;
+}
+.docsify-copy-code-button {
+  padding: 2px 3px !important;
+  font-size: 12px !important;
+  top: 4px !important;
+  right: 4px !important;
+  border-radius: 2px !important;
 }
