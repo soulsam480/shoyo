@@ -5,11 +5,12 @@
 @use 'forms' as *;
 @use 'typo' as *;
 @use "grid" as *;
+@use 'mixins/buttons' as *;
 //todo font rules here
 
-/* :root {
-  background-color: $bg-primary;
-  color: $text;
+:root {
+  background-color: $white;
+  color: $black;
   padding: 5px;
   font-family: Arial, Helvetica, sans-serif;
-} */
+}

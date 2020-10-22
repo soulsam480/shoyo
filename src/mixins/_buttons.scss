@@ -1,0 +1,33 @@
+// Button variants
+//todo this is borrowd from official bootstrap repo
+
+@use '../functions' as *;
+@use '../colors' as *;
+@mixin button-variant(
+  $background,
+  $color: $white,
+  $bg-hover:
+    if(
+      $color == $white,
+      shade-color($background, 12%),
+      tint-color($background, 12%)
+    ),
+  $hover-color: color-contrast($bg-hover),
+  $bg-disabled: $bg-hover
+) {
+  background: $background;
+  color: $color;
+  &:hover {
+    color: $hover-color;
+    background-color: $bg-hover;
+  }
+  &:not([href]) {
+    color: $color;
+  }
+  &:not([href]):hover {
+    color: $color;
+  }
+  &:disabled {
+    background-color: $bg-disabled;
+  }
+}

@@ -1,33 +1,49 @@
 //todo all colors will go here
+@mixin gen_colors($color) {
+  color: $color !important;
+}
+@mixin gen_bgcolors($color) {
+  background-color: $color !important;
+}
 
-$bg-primary: #ffffff;
+//todo some legacy code
 $bg-seconday: #4f545e;
 $bg-seconday-light: #393e46;
-$primary: #ffffff;
-$secondary: #4ecca3;
-$bg-danger: #e0293b;
-$bg-danger-light: #c82333;
-$bg-success: #18c418;
-$bg-success-light: #14ac14;
-$text: #000;
-.primary {
-  color: $primary;
+//todo new
+$black: #000000 !default;
+$white: #ffffff !default;
+$blue: #0d6efd !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #d63384 !default;
+$red: #e0293b !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #18c418 !default;
+$teal: #20c997 !default;
+$cyan: #0dcaf0 !default;
+
+$theme: (
+  "red": $red,
+  "blue": $blue,
+  "indigo": $indigo,
+  "purple": $purple,
+  "pink": $pink,
+  "orange": $orange,
+  "yellow": $yellow,
+  "green": $green,
+  "teal": $teal,
+  "cyan": $cyan,
+) !default;
+
+@each $color, $value in $theme {
+  .#{$color} {
+    @include gen_colors($value);
+  }
 }
-.secondary {
-  color: $secondary;
-}
-.danger {
-  color: $bg-danger;
-}
-.success {
-  color: $bg-success;
-}
-.bg-secondary {
-  background-color: $secondary;
-}
-.bg-danger {
-  background-color: $bg-danger;
-}
-.bg-success {
-  background-color: $bg-success;
+
+@each $color, $value in $theme {
+  .bg-#{$color} {
+    @include gen_bgcolors($value);
+  }
 }

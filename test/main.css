@@ -1,5 +1,5 @@
 .red {
-  color: #dc3545 !important;
+  color: #e0293b !important;
 }
 
 .blue {
@@ -27,7 +27,7 @@
 }
 
 .green {
-  color: #198754 !important;
+  color: #18c418 !important;
 }
 
 .teal {
@@ -39,7 +39,7 @@
 }
 
 .bg-red {
-  background-color: #dc3545 !important;
+  background-color: #e0293b !important;
 }
 
 .bg-blue {
@@ -67,7 +67,7 @@
 }
 
 .bg-green {
-  background-color: #198754 !important;
+  background-color: #18c418 !important;
 }
 
 .bg-teal {
@@ -96,16 +96,16 @@
 .btn {
   background: #4f545e;
   color: #ffffff;
-  border-radius: 4x;
+  border-radius: 4px;
   border: none;
-  padding: 8px 20px;
+  padding: 7px 20px;
   display: inline-block;
   font-family: inherit;
 }
 .btn:hover {
   color: #ffffff;
   background-color: #393e46;
-  transition: background-color ease-in-out 0.2s;
+  transition: background-color ease-in-out 0.3s;
 }
 .btn:focus {
   outline: none;
@@ -132,15 +132,12 @@
 }
 
 .btn-red {
-  background: #dc3545;
+  background: #e0293b;
   color: #ffffff;
 }
 .btn-red:hover {
   color: #ffffff;
-  background-color: #bb2d3b;
-}
-.btn-red:focus {
-  outline: none;
+  background-color: #c52434;
 }
 .btn-red:not([href]) {
   color: #ffffff;
@@ -149,7 +146,7 @@
   color: #ffffff;
 }
 .btn-red:disabled {
-  background-color: #bb2d3b;
+  background-color: #c52434;
 }
 
 .btn-blue {
@@ -158,10 +155,7 @@
 }
 .btn-blue:hover {
   color: #ffffff;
-  background-color: #0b5ed7;
-}
-.btn-blue:focus {
-  outline: none;
+  background-color: #0b61df;
 }
 .btn-blue:not([href]) {
   color: #ffffff;
@@ -170,7 +164,7 @@
   color: #ffffff;
 }
 .btn-blue:disabled {
-  background-color: #0b5ed7;
+  background-color: #0b61df;
 }
 
 .btn-indigo {
@@ -179,10 +173,7 @@
 }
 .btn-indigo:hover {
   color: #ffffff;
-  background-color: #570ece;
-}
-.btn-indigo:focus {
-  outline: none;
+  background-color: #5a0ed5;
 }
 .btn-indigo:not([href]) {
   color: #ffffff;
@@ -191,7 +182,7 @@
   color: #ffffff;
 }
 .btn-indigo:disabled {
-  background-color: #570ece;
+  background-color: #5a0ed5;
 }
 
 .btn-purple {
@@ -200,10 +191,7 @@
 }
 .btn-purple:hover {
   color: #ffffff;
-  background-color: #5e38a4;
-}
-.btn-purple:focus {
-  outline: none;
+  background-color: #623aaa;
 }
 .btn-purple:not([href]) {
   color: #ffffff;
@@ -212,7 +200,7 @@
   color: #ffffff;
 }
 .btn-purple:disabled {
-  background-color: #5e38a4;
+  background-color: #623aaa;
 }
 
 .btn-pink {
@@ -221,10 +209,7 @@
 }
 .btn-pink:hover {
   color: #ffffff;
-  background-color: #b62b70;
-}
-.btn-pink:focus {
-  outline: none;
+  background-color: #bc2d74;
 }
 .btn-pink:not([href]) {
   color: #ffffff;
@@ -233,7 +218,7 @@
   color: #ffffff;
 }
 .btn-pink:disabled {
-  background-color: #b62b70;
+  background-color: #bc2d74;
 }
 
 .btn-orange {
@@ -242,10 +227,7 @@
 }
 .btn-orange:hover {
   color: #000000;
-  background-color: #d76b11;
-}
-.btn-orange:focus {
-  outline: none;
+  background-color: #df6f12;
 }
 .btn-orange:not([href]) {
   color: #ffffff;
@@ -254,7 +236,7 @@
   color: #ffffff;
 }
 .btn-orange:disabled {
-  background-color: #d76b11;
+  background-color: #df6f12;
 }
 
 .btn-yellow {
@@ -263,10 +245,7 @@
 }
 .btn-yellow:hover {
   color: #000000;
-  background-color: #d9a406;
-}
-.btn-yellow:focus {
-  outline: none;
+  background-color: #e0aa06;
 }
 .btn-yellow:not([href]) {
   color: #ffffff;
@@ -275,19 +254,16 @@
   color: #ffffff;
 }
 .btn-yellow:disabled {
-  background-color: #d9a406;
+  background-color: #e0aa06;
 }
 
 .btn-green {
-  background: #198754;
+  background: #18c418;
   color: #ffffff;
 }
 .btn-green:hover {
-  color: #ffffff;
-  background-color: #157347;
-}
-.btn-green:focus {
-  outline: none;
+  color: #000000;
+  background-color: #15ac15;
 }
 .btn-green:not([href]) {
   color: #ffffff;
@@ -296,7 +272,7 @@
   color: #ffffff;
 }
 .btn-green:disabled {
-  background-color: #157347;
+  background-color: #15ac15;
 }
 
 .btn-teal {
@@ -305,10 +281,7 @@
 }
 .btn-teal:hover {
   color: #000000;
-  background-color: #1bab80;
-}
-.btn-teal:focus {
-  outline: none;
+  background-color: #1cb185;
 }
 .btn-teal:not([href]) {
   color: #ffffff;
@@ -317,7 +290,7 @@
   color: #ffffff;
 }
 .btn-teal:disabled {
-  background-color: #1bab80;
+  background-color: #1cb185;
 }
 
 .btn-cyan {
@@ -326,10 +299,7 @@
 }
 .btn-cyan:hover {
   color: #000000;
-  background-color: #0baccc;
-}
-.btn-cyan:focus {
-  outline: none;
+  background-color: #0bb2d3;
 }
 .btn-cyan:not([href]) {
   color: #ffffff;
@@ -338,7 +308,7 @@
   color: #ffffff;
 }
 .btn-cyan:disabled {
-  background-color: #0baccc;
+  background-color: #0bb2d3;
 }
 
 .container {

@@ -4,7 +4,7 @@
   "main": "dist/main.css",
   "description": "A light CSS library",
   "scripts": {
-    "watch": "sass --watch src/main.scss:dist/main.css",
+    "watch": "sass --watch src/main.scss:test/main.css",
     "build": "sass src/main.scss:dist/main.css && sass src/main.scss:dist/main.min.css --style=compressed",
     "release": "yarn build && yarn publish && git add . && git commit && git push origin master"
   },

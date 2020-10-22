@@ -1,6 +1,6 @@
 //TODO all button styles will go here
 @use 'colors' as *;
-
+@use 'mixins/buttons' as *;
 .btn-group {
   .btn {
     margin-left: 3px;
@@ -16,16 +16,16 @@
 
 .btn {
   background: $bg-seconday;
-  color: $primary;
+  color: $white;
   border-radius: 4px;
   border: none;
-  padding: 8px 20px;
+  padding: 7px 20px;
   display: inline-block;
   font-family: inherit;
-  transition: all ease-in 0.2s;
   &:hover {
-    color: $primary;
+    color: $white;
     background-color: $bg-seconday-light;
+    transition: background-color ease-in-out 0.3s;
   }
   &:focus {
     outline: none;
@@ -33,12 +33,12 @@
 
   &:not([href]) {
     cursor: pointer;
-    color: $primary;
+    color: $white;
     text-decoration: none;
   }
 
   &:not([href]):hover {
-    color: $primary;
+    color: $white;
     text-decoration: none;
   }
 
@@ -54,22 +54,10 @@
   &.sm {
     padding: 5px 15px;
   }
-  &.danger {
-    background-color: $bg-danger;
-    &:hover {
-      background-color: $bg-danger-light;
-    }
-    &:disabled {
-      background-color: $bg-danger-light;
-    }
-  }
-  &.success {
-    background-color: $bg-success;
-    &:hover {
-      background-color: $bg-success-light;
-    }
-    &:disabled {
-      background-color: $bg-success-light;
-    }
+}
+
+@each $color, $value in $theme {
+  .btn-#{$color} {
+    @include button-variant($value);
   }
 }
