@@ -1,7 +1,10 @@
-# shoyo 
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/soulsam480/shoyo?include_prereleases) ![npm](https://img.shields.io/npm/v/shoyo) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/shoyo)
+# shoyo ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/soulsam480/shoyo?include_prereleases) ![npm](https://img.shields.io/npm/v/shoyo) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/shoyo)
 
-> A light and minimal css library 
+
+> A light and Minimal CSS Library
+
+
+!> In alpha. Not recommended for production.
 
 # Motivation 
 

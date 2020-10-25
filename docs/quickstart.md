@@ -2,12 +2,14 @@
 
 Shoyo can be imported from both npm and CDN
 
+!> shoyo is in alpha. Not recommended for production.
+
 ## From npm
 
 ```bash
-yarn add shoyo 
+yarn add shoyo@next 
 //or
-npm i shoyo
+npm i shoyo@next
 ```
 Import the stylesheet in your code
 
