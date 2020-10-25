@@ -30,12 +30,20 @@
   color: #18c418 !important;
 }
 
-.teal {
-  color: #20c997 !important;
-}
-
 .cyan {
   color: #0dcaf0 !important;
+}
+
+.teal {
+  color: #4ecca3 !important;
+}
+
+.white {
+  color: #ffffff !important;
+}
+
+.dark {
+  color: #000000 !important;
 }
 
 .bg-red {
@@ -70,12 +78,20 @@
   background-color: #18c418 !important;
 }
 
-.bg-teal {
-  background-color: #20c997 !important;
-}
-
 .bg-cyan {
   background-color: #0dcaf0 !important;
+}
+
+.bg-teal {
+  background-color: #4ecca3 !important;
+}
+
+.bg-white {
+  background-color: #ffffff !important;
+}
+
+.bg-dark {
+  background-color: #000000 !important;
 }
 
 /** //? this is important
@@ -118,7 +134,7 @@
   text-decoration: none;
 }
 .btn:disabled {
-  background-color: #45b48f;
+  background-color: #378f72;
   cursor: not-allowed;
 }
 .btn a {
@@ -127,6 +143,9 @@
 }
 .btn.sm {
   padding: 5px 15px;
+}
+.btn.block {
+  width: 100%;
 }
 
 .btn-red {
@@ -273,24 +292,6 @@
   background-color: #15ac15;
 }
 
-.btn-teal {
-  background: #20c997;
-  color: #ffffff;
-}
-.btn-teal:hover {
-  color: #000000;
-  background-color: #1cb185;
-}
-.btn-teal:not([href]) {
-  color: #ffffff;
-}
-.btn-teal:not([href]):hover {
-  color: #ffffff;
-}
-.btn-teal:disabled {
-  background-color: #1cb185;
-}
-
 .btn-cyan {
   background: #0dcaf0;
   color: #ffffff;
@@ -307,6 +308,60 @@
 }
 .btn-cyan:disabled {
   background-color: #0bb2d3;
+}
+
+.btn-teal {
+  background: #4ecca3;
+  color: #ffffff;
+}
+.btn-teal:hover {
+  color: #000000;
+  background-color: #45b48f;
+}
+.btn-teal:not([href]) {
+  color: #ffffff;
+}
+.btn-teal:not([href]):hover {
+  color: #ffffff;
+}
+.btn-teal:disabled {
+  background-color: #45b48f;
+}
+
+.btn-white {
+  background: #ffffff;
+  color: #ffffff;
+}
+.btn-white:hover {
+  color: #000000;
+  background-color: #e0e0e0;
+}
+.btn-white:not([href]) {
+  color: #ffffff;
+}
+.btn-white:not([href]):hover {
+  color: #ffffff;
+}
+.btn-white:disabled {
+  background-color: #e0e0e0;
+}
+
+.btn-dark {
+  background: #000000;
+  color: #ffffff;
+}
+.btn-dark:hover {
+  color: #ffffff;
+  background-color: black;
+}
+.btn-dark:not([href]) {
+  color: #ffffff;
+}
+.btn-dark:not([href]):hover {
+  color: #ffffff;
+}
+.btn-dark:disabled {
+  background-color: black;
 }
 
 .container {

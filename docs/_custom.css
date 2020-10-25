@@ -8,3 +8,7 @@
   right: 4px !important;
   border-radius: 2px !important;
 }
+
+.custom-p {
+  margin: 0.2em 0 !important;
+}

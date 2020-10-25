@@ -18,7 +18,6 @@ $red: #e0293b !default;
 $orange: #fd7e14 !default;
 $yellow: #ffc107 !default;
 $green: #18c418 !default;
-$teal: #20c997 !default;
 $cyan: #0dcaf0 !default;
 
 $theme: (
@@ -30,8 +29,10 @@ $theme: (
   "orange": $orange,
   "yellow": $yellow,
   "green": $green,
-  "teal": $teal,
   "cyan": $cyan,
+  "teal": $main,
+  "white": $white,
+  "dark": $black,
 ) !default;
 
 @each $color, $value in $theme {

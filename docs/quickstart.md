@@ -30,11 +30,11 @@ import "shoyo/dist/main.css";
 ## From CDN
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/soulsam480/shoyo@0.1.1/dist/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/soulsam480/shoyo@0.1.2.alpha/dist/main.css">
 ```
 
 Minified version
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/soulsam480/shoyo@0.1.1/dist/main.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/soulsam480/shoyo@0.1.2.alpha/dist/main.min.css">
 ```

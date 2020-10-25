@@ -1,7 +1,9 @@
 - **Getting Started**
   - [Quick Start](quickstart.md "Quick Start")
-- **Components**
+- **Styles**
   - [Colors](colors.md "shoyo Colors")
+- **Components**
   - [Buttons](buttons.md "shoyo Buttons")
-  - [Grid](grid.md "shoyo Grid")
+  - [Inputs](inputs.md "shoyo Input")
   - [Typography](typography.md "shoyo Typography")
+  - [Grid](grid.md "shoyo Grid")

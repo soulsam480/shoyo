@@ -43,7 +43,7 @@
   }
 
   &:disabled {
-    background-color: shade-color($main, 12%);
+    background-color: shade-color($main, 30%);
     cursor: not-allowed;
   }
   a {
@@ -52,6 +52,9 @@
   }
   &.sm {
     padding: 5px 15px;
+  }
+  &.block {
+    width: 100%;
   }
 }
 
