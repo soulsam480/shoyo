@@ -1,11 +1,40 @@
 //todo typography styles will go here
+@use 'colors' as *;
+@use 'functions' as *;
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-p {
+h6 {
   margin-block-start: 0 !important;
-  margin-block-end: 10px;
+  margin-block-end: 10px !important;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+small {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+blockquote {
+  background: tint-color($main, 85%);
+  border-left: 10px solid tint-color($main, 30%);
+  margin: 1em 10px;
+  padding: 0.5em 10px;
+}
+.muted {
+  color: #6c757d !important;
+}
+.mark {
+  padding: 0.2em;
+  background-color: tint-color($main, 90%);
 }

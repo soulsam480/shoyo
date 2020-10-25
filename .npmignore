@@ -2,6 +2,8 @@
 assets
 docs
 src
+test
 CNAME
 index.html
 yarn.lock
+yarn-error.log

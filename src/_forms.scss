@@ -1,1 +1,45 @@
 //todo form styles will go here
+@use 'colors' as *;
+@use 'functions' as *;
+
+input {
+  overflow: visible;
+}
+.input {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: $white;
+  background-clip: padding-box;
+  border: 0.1px solid tint-color($main, 15%);
+  border-radius: 0.25rem;
+  outline: none;
+  transition: box-shadow 0.2s ease-in-out 0.1s;
+  &::placeholder {
+    font-size: 12px;
+    color: shade-color($white, 50%);
+  }
+  &:focus {
+    box-shadow: 0 0 2px 0.5px tint-color($main, 30%);
+  }
+  &:hover {
+    box-shadow: 0 0 2px 0.5px tint-color($main, 30%);
+  }
+  &:read-only {
+    background-color: tint-color($main, 30%);
+  }
+  &:disabled {
+    background-color: tint-color($main, 30%);
+  }
+}
+// ** form group
+.form-group {
+  margin-bottom: 1rem;
+  label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+}

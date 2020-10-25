@@ -78,9 +78,8 @@
   background-color: #0dcaf0 !important;
 }
 
-/**
-* todo This has been borrowd from official bootstrap repo.
-
+/** //? this is important
+* ? This has been borrowd from official bootstrap repo.
 */
 .btn-group .btn {
   margin-left: 3px;
@@ -94,7 +93,7 @@
 }
 
 .btn {
-  background: #4f545e;
+  background: #4ecca3;
   color: #ffffff;
   border-radius: 4px;
   border: none;
@@ -103,8 +102,7 @@
   font-family: inherit;
 }
 .btn:hover {
-  color: #ffffff;
-  background-color: #393e46;
+  background-color: #45b48f;
   transition: background-color ease-in-out 0.3s;
 }
 .btn:focus {
@@ -120,7 +118,7 @@
   text-decoration: none;
 }
 .btn:disabled {
-  background-color: #393e46;
+  background-color: #45b48f;
   cursor: not-allowed;
 }
 .btn a {
@@ -312,9 +310,54 @@
 }
 
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
   width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input {
+  overflow: visible;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 0.1px solid #69d4b1;
+  border-radius: 0.25rem;
+  outline: none;
+  transition: box-shadow 0.2s ease-in-out 0.1s;
+}
+.input::placeholder {
+  font-size: 12px;
+  color: gray;
+}
+.input:focus {
+  box-shadow: 0 0 2px 0.5px #83dbbf;
+}
+.input:hover {
+  box-shadow: 0 0 2px 0.5px #83dbbf;
+}
+.input:read-only {
+  background-color: #83dbbf;
+}
+.input:disabled {
+  background-color: #83dbbf;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+.form-group label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  text-align: left;
 }
 
 h1,
@@ -322,10 +365,38 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p {
+h6 {
   margin-block-start: 0 !important;
-  margin-block-end: 10px;
+  margin-block-end: 10px !important;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+small {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+blockquote {
+  background: #e4f7f1;
+  border-left: 10px solid #83dbbf;
+  margin: 1em 10px;
+  padding: 0.5em 10px;
+}
+
+.muted {
+  color: #6c757d !important;
+}
+
+.mark {
+  padding: 0.2em;
+  background-color: #edfaf6;
 }
 
 /**
@@ -1246,10 +1317,18 @@ p {
     order: 1;
   }
 }
-:root {
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 5px;
   background-color: #ffffff;
   color: #000000;
-  padding: 5px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
