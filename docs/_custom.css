@@ -11,4 +11,21 @@
 
 .custom-p {
   margin: 0.2em 0 !important;
+  padding: 5px 5px;
+}
+
+@media (max-width: 768px) {
+  .markdown-section {
+    max-width: 90%;
+  }
+}
+
+.logo {
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+#head,
+#head-1 {
+  text-align: center;
 }

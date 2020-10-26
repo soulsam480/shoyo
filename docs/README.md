@@ -1,10 +1,15 @@
-# shoyo ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/soulsam480/shoyo?include_prereleases) ![npm](https://img.shields.io/npm/v/shoyo) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/shoyo)
+
+![logo]( _static/../_static/shoyo.svg ':class=logo')
+
+# shoyo :id=head
+
+# ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/soulsam480/shoyo?include_prereleases) ![npm](https://img.shields.io/npm/v/shoyo) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/shoyo) :id=head
 
 
 > A light and Minimal CSS Library
 
 
-!> In alpha. Not recommended for production.
+!> In alpha release. Not recommended for production.
 
 # Motivation 
 
@@ -20,3 +25,5 @@ I'm a matured `Bootstrap` user and in my views It's great for the projects where
 - Customizable
 - Minimal
 - Simple design (I love that 🤗)
+
+See [Quickstart](/quickstart)
