@@ -9,7 +9,7 @@
 > A light and Minimal CSS Library
 
 
-!> In alpha release. Not recommended for production.
+!> shoyo is in alpha. Not recommended for production as codebase changes are frequent.
 
 # Motivation 
 

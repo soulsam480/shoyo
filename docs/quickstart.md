@@ -2,14 +2,14 @@
 
 Shoyo can be imported from both npm and CDN
 
-!> shoyo is in alpha. Not recommended for production.
+!> shoyo is in alpha. Not recommended for production as codebase changes are frequent.
 
 ## From npm
 
 ```bash
-yarn add shoyo@next 
+yarn add shoyo
 //or
-npm i shoyo@next
+npm i shoyo
 ```
 Import the stylesheet in your code
 
@@ -32,11 +32,11 @@ import "shoyo/dist/main.css";
 ## From CDN
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/soulsam480/shoyo@0.1.2.alpha/dist/main.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/soulsam480/shoyo@0.1.2.alpha.1/dist/main.css">
 ```
 
 Minified version
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/soulsam480/shoyo@0.1.2.alpha/dist/main.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/soulsam480/shoyo@0.1.2.alpha.1/dist/main.min.css">
 ```
