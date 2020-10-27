@@ -23,12 +23,12 @@ shoyo extends the og HTML type formatters with little tweaks.
 ## Content
 <p>This is a paragraph</p>
 <small class="muted">This is muted text</small>
-<blockquote> <p>shoyo is very Basic </p> </blockquote>
+<blockquote> <p>This is a Block Quote</p></blockquote>
 <span class="mark">This is Highlighted text </span>
 
 ```html
 <p>This is a paragraph</p>
 <small class="muted">This is muted text</small>
-<blockquote> <p>shoyo is very Basic </p> </blockquote>
+<blockquote> <p>This is a Block Quote</p></blockquote>
 <span class="mark">This is Highlighted text </span>
 ```

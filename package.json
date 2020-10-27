@@ -5,8 +5,9 @@
   "description": "A light CSS library",
   "scripts": {
     "watch": "sass --watch src/main.scss:test/main.css",
-    "build": "sass src/main.scss:dist/main.css && sass src/main.scss:dist/main.min.css --style=compressed",
-    "release": "yarn build && yarn publish && git add . && git commit && git push origin master"
+    "build": "sass --no-source-map src/main.scss:dist/main.css --style=compressed",
+    "release": "yarn build && yarn publish && git add . && git commit && git push origin master",
+    "docs": "docsify serve ./docs"
   },
   "repository": "https://github.com/soulsam480/shoyo.git",
   "homepage": "http://shoyo.sambitsahoo.com/",
@@ -19,8 +20,7 @@
     "scss"
   ],
   "devDependencies": {
-    "sass": "^1.27.0",
-    "shoyo": "^0.1.2-alpha.1"
+    "sass": "^1.27.0"
   },
   "dependencies": {}
 }

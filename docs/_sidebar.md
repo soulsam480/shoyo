@@ -1,5 +1,6 @@
 - **Getting Started**
   - [Quick Start](quickstart.md "Quick Start")
+  - [Releases](releases.md "Releases")
 - **Styles**
   - [Colors](colors.md "shoyo Colors")
 - **Components**
