@@ -1,6 +1,7 @@
 - **Getting Started**
   - [Quick Start](quickstart.md "Quick Start")
   - [Releases](releases.md "Releases")
+  - [Roadmap](roadmap.md "shoyo Features Roadmap")
 - **Styles**
   - [Colors](colors.md "shoyo Colors")
 - **Components**

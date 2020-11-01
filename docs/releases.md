@@ -6,11 +6,16 @@ Releases and changelogs of shoyo.
 
 ## Latest 
 
+#### v0.1.3.alpha
+**Changelog**
+- Switched to only minified version for reducing size.
+- Added Roadmap
+
+## Previous
+
 #### v0.1.2.alpha.1
 **Changelog**
 - Started following semVer Strictly.
-
-## Previous
 
 #### v0.1.2.alpha 
 **Changelog**
