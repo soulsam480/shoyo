@@ -4,8 +4,10 @@
   - [Roadmap](roadmap.md "shoyo Features Roadmap")
 - **Styles**
   - [Colors](colors.md "shoyo Colors")
+- **Layout**
+  - [Grid](grid.md "shoyo Grid")
+  - [Container <sup> `WIP` </sup>](container.md "shoyo Containers")
 - **Components**
   - [Buttons](buttons.md "shoyo Buttons")
   - [Inputs](inputs.md "shoyo Input")
   - [Typography](typography.md "shoyo Typography")
-  - [Grid](grid.md "shoyo Grid")
