@@ -5,7 +5,9 @@
 @mixin gen_bgcolors($color) {
   background-color: $color !important;
 }
-
+@mixin set_root_vars($color, $value) {
+  --#{$color}: #{$value};
+}
 //todo new theme
 $main: #4ecca3 !default;
 $black: #000000 !default;
@@ -34,6 +36,12 @@ $theme: (
   "white": $white,
   "dark": $black,
 ) !default;
+
+:root {
+  @each $color, $value in $theme {
+    @include set_root_vars($color, $value);
+  }
+}
 
 @each $color, $value in $theme {
   .#{$color} {

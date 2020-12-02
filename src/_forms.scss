@@ -13,25 +13,29 @@ input {
   line-height: 1.5;
   background-color: $white;
   background-clip: padding-box;
-  border: 0.1px solid tint-color($main, 15%);
+  border: 0.1px solid rgb(194, 194, 194);
   border-radius: 0.25rem;
   outline: none;
-  transition: box-shadow 0.2s ease-in-out 0.1s;
+  transition: box-shadow 0.1s ease-in-out 0.1s;
   &::placeholder {
     font-size: 12px;
     color: shade-color($white, 50%);
   }
   &:focus {
     box-shadow: 0 0 2px 0.5px tint-color($main, 30%);
+    border-color: $main;
   }
   &:hover {
     box-shadow: 0 0 2px 0.5px tint-color($main, 30%);
+    border-color: $main;
   }
   &:read-only {
     background-color: tint-color($main, 30%);
+    border-color: $main;
   }
   &:disabled {
     background-color: tint-color($main, 30%);
+    border-color: $main;
   }
 }
 // ** form group
